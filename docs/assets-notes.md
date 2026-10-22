@@ -37,3 +37,7 @@ Las versiones `autocontorneador-flujo-anon.png` y `autocontorneador-mpr-anon.png
 ## Capturas aportadas de GineIA
 
 El usuario aportó `gineia3.PNG` y `gineia2.PNG`, incorporadas sin edición como `dist/assets/screens/gineia-explorador-full13.png` (1577 × 773) y `dist/assets/screens/gineia-red-neuronal.png` (1641 × 878). Muestran el explorador Full13 y el esquema de la red neuronal. En la revisión visual independiente no se observaron identificadores personales directos. No se afirma que los valores clínicos mostrados sean ficticios. Las imágenes se presentan como capturas del entorno de investigación; sus cifras no se convierten en afirmaciones de validación clínica. La red neuronal se utiliza también en la presentación y las tarjetas de GineIA.
+
+## Capturas aportadas de PET
+
+Las imágenes `pet1.jpeg` y `pet2.jpeg` se incorporan como `dist/assets/screens/pet-fusion-anon.png` y `dist/assets/screens/pet-ct-anon.png`, con las cabeceras de identificación difuminadas mediante ImageGen integrado. Los originales de estas dos capturas permanecen fuera del proyecto. `pet3.png` se conserva sin edición como `dist/assets/screens/pet-recortes-lesiones.png`, tras una revisión visual sin identificadores personales directos observados. No se atribuye carácter ficticio a las mediciones ni se presentan como métricas de validación. La galería incluye las tres vistas; la fusión PET/CT se usa también como presentación del producto y en el catálogo. Archivos finales y prompts: `docs/pet-images.md`.
