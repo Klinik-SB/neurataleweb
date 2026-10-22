@@ -45,3 +45,7 @@ Las imágenes `pet1.jpeg` y `pet2.jpeg` se incorporan como `dist/assets/screens/
 ## Imagen aportada de EduMeta-IA
 
 `EDUMETA IA .jpeg` se conserva sin edición como `dist/assets/screens/edumeta-aula-simulada.jpg` (1600 × 900). Se presenta como una imagen del aula simulada, con agentes, conversaciones, relaciones y seguimiento individual. Los perfiles visibles se describen dentro del entorno representado, sin atribuirlos a estudiantes reales. La revisión visual independiente no detectó contactos ni identificadores externos a la interfaz. Se utiliza en la presentación del proyecto, las tarjetas y una vista ampliable; no se afirma que sea una captura de una versión operativa verificada.
+
+## Imagen aportada de CogniBiometría-IA
+
+`MODELO PREDICTIVO.jpeg` se incorpora en una versión editada con ImageGen integrado: `dist/assets/screens/cognibiometria-evaluacion-anon.png` (1536 × 1024). Se difuminaron los tres nombres y los tres círculos con iniciales del panel de alertas. La revisión independiente a resolución de salida confirmó que esas zonas son ilegibles y no observó otros identificadores personales legibles. El original permanece fuera del proyecto. Se usa como imagen del panel de evaluación, dentro del alcance de investigación, en la presentación, las tarjetas y la vista ampliable. Archivo y prompt: `docs/cognibiometria-image.md`.

@@ -5,7 +5,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 ## Comprobaciones realizadas
 
 - Generación completa y sintaxis JavaScript correctas.
-- Verificador de 22 páginas y 43 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
+- Verificador de 22 páginas y 44 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
 - Revisión independiente de contenido y navegación.
 - Navegador Chrome en escritorio y pantalla móvil de 390 × 844: catálogo, búsqueda con acentos, estado vacío y recuperación, filtro inicial por categoría, menú móvil y menú de productos.
 - Pestañas de productos en el inicio y ampliación/cierre de una captura real.
@@ -16,6 +16,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 - GineIA: dos capturas aportadas, conservadas sin edición. Revisión visual independiente sin identificadores personales directos observados. Presentación con la arquitectura de red y galería del explorador Full13 y de la red neuronal; apertura y cierre de ambas imágenes comprobados en Chrome, sin errores de consola. Los valores de la interfaz se mantienen dentro del alcance investigacional.
 - PET: tres capturas aportadas. Dos cabeceras del visor difuminadas con ImageGen integrado y revisadas independientemente a resolución de salida; captura de recortes conservada sin edición tras revisión visual. Presentación y galería comprobadas en Chrome, con ampliación y cierre de la fusión PET/CT y los recortes por lesión, sin errores de consola.
 - EduMeta-IA: imagen aportada del aula simulada, conservada sin edición y revisada visualmente de forma independiente. Presentación del proyecto y vista ampliable comprobadas en Chrome, incluyendo apertura y cierre, sin errores de consola. Identificada como imagen de simulación; se utiliza también en las tarjetas del sitio.
+- CogniBiometría-IA: imagen aportada del panel de evaluación, con tres nombres y tres grupos de iniciales difuminados mediante ImageGen integrado. Revisión visual independiente a resolución de salida y comprobación de presentación, ampliación y cierre en Chrome, sin errores de consola. El original permanece fuera del repositorio; el texto mantiene el alcance de investigación sobre modelos predictivos de evaluación.
 - Formulario con información ficticia: preparación local del mensaje y copia al portapapeles comprobadas. Sin envío a terceros.
 - Sin errores de consola durante la prueba del formulario.
 - Lanzadores de inicio, cierre y reinicio probados. Servicio local disponible en http://127.0.0.1:5188.
