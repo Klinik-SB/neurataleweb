@@ -5,7 +5,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 ## Comprobaciones realizadas
 
 - Generación completa y sintaxis JavaScript correctas.
-- Verificador de 22 páginas y 44 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
+- Verificador de 22 páginas y 50 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
 - Revisión independiente de contenido y navegación.
 - Navegador Chrome en escritorio y pantalla móvil de 390 × 844: catálogo, búsqueda con acentos, estado vacío y recuperación, filtro inicial por categoría, menú móvil y menú de productos.
 - Pestañas de productos en el inicio y ampliación/cierre de una captura real.
@@ -17,6 +17,8 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 - PET: tres capturas aportadas. Dos cabeceras del visor difuminadas con ImageGen integrado y revisadas independientemente a resolución de salida; captura de recortes conservada sin edición tras revisión visual. Presentación y galería comprobadas en Chrome, con ampliación y cierre de la fusión PET/CT y los recortes por lesión, sin errores de consola.
 - EduMeta-IA: imagen aportada del aula simulada, conservada sin edición y revisada visualmente de forma independiente. Presentación del proyecto y vista ampliable comprobadas en Chrome, incluyendo apertura y cierre, sin errores de consola. Identificada como imagen de simulación; se utiliza también en las tarjetas del sitio.
 - CogniBiometría-IA: imagen aportada del panel de evaluación, con tres nombres y tres grupos de iniciales difuminados mediante ImageGen integrado. Revisión visual independiente a resolución de salida y comprobación de presentación, ampliación y cierre en Chrome, sin errores de consola. El original permanece fuera del repositorio; el texto mantiene el alcance de investigación sobre modelos predictivos de evaluación.
+- GENESIS: captura del simulador incorporada a la galería. Portadas conceptuales de GENESIS y Perturbaciones radiobiológicas creadas con ImageGen integrado, revisadas independientemente y comprobadas visualmente en Chrome. Se identifican como imágenes generadas con IA y no representan resultados experimentales.
+- UroNeuratale: tres capturas aportadas, sin datos de pacientes identificables observados en la revisión independiente. Presentación y galería comprobadas en Chrome, incluyendo apertura y cierre del árbol de decisión. El texto RAG + grafos y adaptación a otras patologías refleja la descripción confirmada por el usuario. Sin errores de consola durante esta revisión.
 - Formulario con información ficticia: preparación local del mensaje y copia al portapapeles comprobadas. Sin envío a terceros.
 - Sin errores de consola durante la prueba del formulario.
 - Lanzadores de inicio, cierre y reinicio probados. Servicio local disponible en http://127.0.0.1:5188.

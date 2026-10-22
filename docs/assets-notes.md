@@ -49,3 +49,15 @@ Las imágenes `pet1.jpeg` y `pet2.jpeg` se incorporan como `dist/assets/screens/
 ## Imagen aportada de CogniBiometría-IA
 
 `MODELO PREDICTIVO.jpeg` se incorpora en una versión editada con ImageGen integrado: `dist/assets/screens/cognibiometria-evaluacion-anon.png` (1536 × 1024). Se difuminaron los tres nombres y los tres círculos con iniciales del panel de alertas. La revisión independiente a resolución de salida confirmó que esas zonas son ilegibles y no observó otros identificadores personales legibles. El original permanece fuera del proyecto. Se usa como imagen del panel de evaluación, dentro del alcance de investigación, en la presentación, las tarjetas y la vista ampliable. Archivo y prompt: `docs/cognibiometria-image.md`.
+
+## Imagen aportada de GENESIS
+
+`SIMULADOR SOCIOLOGICO (1).jpeg` se conserva sin edición como `dist/assets/screens/genesis-simulador-sociologico.jpg` (1600 × 793). Muestra un entorno isométrico con biomas, agentes y un panel de estado, vínculos y encuentros. La revisión visual independiente no detectó contactos ni identificadores personales externos a la simulación. Los nombres, atributos y textos del panel se presentan como contenido de los agentes; no se convierten en afirmaciones del sitio sobre conciencia artificial. Se utiliza en la galería ampliable de GENESIS, dentro del alcance experimental del proyecto.
+
+## Portadas conceptuales de GENESIS y radiobiología
+
+Por solicitud posterior, las imágenes principales y las tarjetas de GENESIS y Perturbaciones radiobiológicas usan ilustraciones conceptuales creadas con ImageGen integrado. La captura de GENESIS permanece en la galería. Archivos finales, alcance y prompts: `docs/research-hero-images.md`.
+
+## Capturas aportadas de UroNeuratale
+
+Tres imágenes conservadas sin edición: `dist/assets/screens/uroneuratale-respuesta-documental.jpg` (1600 × 882), `uroneuratale-arbol-decision.jpg` (1600 × 852) y `uroneuratale-chat-visual.jpg` (1600 × 808). Proceden respectivamente de `453.jpeg` y de las dos imágenes de WhatsApp aportadas el 22 de octubre de 2026. La revisión independiente no observó datos de pacientes identificables. La segunda conserva una barra de pantalla compartida y un contraste reducido; se usa en la galería, mientras que la respuesta documental se utiliza como presentación. El chat visual muestra una consulta aún en preparación. La descripción RAG + grafos, orientada a urooncología y adaptable a otras patologías con documentación específica, fue confirmada por el usuario. Las capturas son ejemplos de interfaz; las recomendaciones visibles no se adoptan como indicaciones de esta web.

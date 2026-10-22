@@ -149,8 +149,8 @@
       "name": "UroNeuratale",
       "category": "asistentes",
       "eyebrow": "Conocimiento especializado",
-      "tagline": "Una conversación con la documentación uro-oncológica.",
-      "description": "Asistente de inteligencia artificial basado en recuperación de información documental, o RAG. Acerca documentación especializada al trabajo de consulta y estudio en uro-oncología.",
+      "tagline": "RAG y grafos para conectar el conocimiento en urooncología.",
+      "description": "Asistente de inteligencia artificial que combina recuperación documental (RAG) y grafos para conectar consultas, evidencia y relaciones de conocimiento en urooncología. Su arquitectura puede adaptarse a otras patologías mediante la incorporación y revisión de documentación específica.",
       "status": "Desarrollo de software",
       "features": [
         {
@@ -158,16 +158,16 @@
           "text": "Permite formular preguntas sin convertirlas en búsquedas técnicas."
         },
         {
-          "title": "Recuperación documental",
+          "title": "Recuperación documental y fuentes",
           "text": "Busca información relevante dentro de la documentación incorporada al sistema."
         },
         {
-          "title": "Contexto especializado",
-          "text": "Orienta la conversación hacia el conocimiento uro-oncológico."
+          "title": "Grafos y relaciones de conocimiento",
+          "text": "Conecta conceptos y organiza recorridos de consulta en estructuras visuales."
         },
         {
-          "title": "Acceso al conocimiento",
-          "text": "Acompaña la revisión de contenidos y la preparación de nuevas preguntas."
+          "title": "Adaptación a otras patologías",
+          "text": "Permite extender el enfoque mediante documentación y relaciones de conocimiento propias de cada ámbito."
         }
       ],
       "workflow": [
@@ -176,8 +176,8 @@
           "text": "Plantear una consulta sobre el tema que se necesita explorar."
         },
         {
-          "title": "Recuperar",
-          "text": "Relacionar la pregunta con la documentación disponible."
+          "title": "Recuperar y relacionar",
+          "text": "Conectar la pregunta con la documentación disponible y sus relaciones de conocimiento."
         },
         {
           "title": "Contrastar",
@@ -479,7 +479,7 @@
       "name": "GENESIS",
       "category": "simulacion",
       "tagline": "Observar sociedades que emergen de la conversación.",
-      "description": "Plataforma experimental de simulación multiagente con modelos de lenguaje locales. Explora cómo surgen cooperación, conflicto y vínculos cuando distintos agentes interactúan en un entorno compartido.",
+      "description": "Plataforma experimental de simulación sociológica multiagente con modelos de lenguaje locales. Explora cómo surgen cooperación, conflicto y vínculos cuando distintos agentes interactúan en un entorno compartido.",
       "status": "Investigación y desarrollo",
       "questions": [
         "¿Qué dinámicas colectivas emergen entre agentes con modelos diferentes?",
