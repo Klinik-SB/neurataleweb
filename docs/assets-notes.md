@@ -41,3 +41,7 @@ El usuario aportó `gineia3.PNG` y `gineia2.PNG`, incorporadas sin edición como
 ## Capturas aportadas de PET
 
 Las imágenes `pet1.jpeg` y `pet2.jpeg` se incorporan como `dist/assets/screens/pet-fusion-anon.png` y `dist/assets/screens/pet-ct-anon.png`, con las cabeceras de identificación difuminadas mediante ImageGen integrado. Los originales de estas dos capturas permanecen fuera del proyecto. `pet3.png` se conserva sin edición como `dist/assets/screens/pet-recortes-lesiones.png`, tras una revisión visual sin identificadores personales directos observados. No se atribuye carácter ficticio a las mediciones ni se presentan como métricas de validación. La galería incluye las tres vistas; la fusión PET/CT se usa también como presentación del producto y en el catálogo. Archivos finales y prompts: `docs/pet-images.md`.
+
+## Imagen aportada de EduMeta-IA
+
+`EDUMETA IA .jpeg` se conserva sin edición como `dist/assets/screens/edumeta-aula-simulada.jpg` (1600 × 900). Se presenta como una imagen del aula simulada, con agentes, conversaciones, relaciones y seguimiento individual. Los perfiles visibles se describen dentro del entorno representado, sin atribuirlos a estudiantes reales. La revisión visual independiente no detectó contactos ni identificadores externos a la interfaz. Se utiliza en la presentación del proyecto, las tarjetas y una vista ampliable; no se afirma que sea una captura de una versión operativa verificada.
