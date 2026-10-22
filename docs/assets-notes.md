@@ -33,3 +33,7 @@ Las versiones `autocontorneador-flujo-anon.png` y `autocontorneador-mpr-anon.png
 ## Captura aportada del Visualizador DICOM
 
 `visualizador-dicom-anon.png` muestra las vistas multiplanares, las herramientas y el panel de series. Se difuminaron los datos visibles de identificación y conexión antes de incorporarla al sitio. El original queda fuera del proyecto. Prompt y alcance: `docs/visualizador-dicom-image.md`.
+
+## Capturas aportadas de GineIA
+
+El usuario aportó `gineia3.PNG` y `gineia2.PNG`, incorporadas sin edición como `dist/assets/screens/gineia-explorador-full13.png` (1577 × 773) y `dist/assets/screens/gineia-red-neuronal.png` (1641 × 878). Muestran el explorador Full13 y el esquema de la red neuronal. En la revisión visual independiente no se observaron identificadores personales directos. No se afirma que los valores clínicos mostrados sean ficticios. Las imágenes se presentan como capturas del entorno de investigación; sus cifras no se convierten en afirmaciones de validación clínica. La red neuronal se utiliza también en la presentación y las tarjetas de GineIA.

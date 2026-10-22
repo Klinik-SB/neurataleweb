@@ -5,7 +5,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 ## Comprobaciones realizadas
 
 - Generación completa y sintaxis JavaScript correctas.
-- Verificador de 22 páginas y 37 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
+- Verificador de 22 páginas y 39 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
 - Revisión independiente de contenido y navegación.
 - Navegador Chrome en escritorio y pantalla móvil de 390 × 844: catálogo, búsqueda con acentos, estado vacío y recuperación, filtro inicial por categoría, menú móvil y menú de productos.
 - Pestañas de productos en el inicio y ampliación/cierre de una captura real.
@@ -13,6 +13,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 - Catálogo unificado de 14 proyectos, filtro de líneas de I+D y búsqueda de GineIA comprobados en el navegador.
 - Dos capturas aportadas del autocontorneador: difuminado visual de cinco zonas de identificación, revisión independiente a resolución de salida y comprobación de la galería ampliable en el navegador. Los originales no se incorporan al proyecto.
 - Captura aportada del Visualizador DICOM: siete zonas con datos visibles difuminados, revisión visual independiente a resolución de salida y galería ampliable comprobada. La imagen editada aparece también en el catálogo y en la pestaña del inicio. Sin errores de consola durante esta revisión; el original permanece fuera del repositorio.
+- GineIA: dos capturas aportadas, conservadas sin edición. Revisión visual independiente sin identificadores personales directos observados. Presentación con la arquitectura de red y galería del explorador Full13 y de la red neuronal; apertura y cierre de ambas imágenes comprobados en Chrome, sin errores de consola. Los valores de la interfaz se mantienen dentro del alcance investigacional.
 - Formulario con información ficticia: preparación local del mensaje y copia al portapapeles comprobadas. Sin envío a terceros.
 - Sin errores de consola durante la prueba del formulario.
 - Lanzadores de inicio, cierre y reinicio probados. Servicio local disponible en http://127.0.0.1:5188.
