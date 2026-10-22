@@ -29,3 +29,7 @@ El navegador CUA entrega capturas JPEG; se conservó ese formato original con ex
 ## Capturas aportadas del autocontorneador
 
 Las versiones `autocontorneador-flujo-anon.png` y `autocontorneador-mpr-anon.png` se incluyen con los datos visibles de identificación difuminados mediante edición de imágenes. Los originales aportados no se incluyen en el proyecto ni en Git. Los prompts y el alcance de edición están documentados en `docs/autocontorneador-images.md`.
+
+## Captura aportada del Visualizador DICOM
+
+`visualizador-dicom-anon.png` muestra las vistas multiplanares, las herramientas y el panel de series. Se difuminaron los datos visibles de identificación y conexión antes de incorporarla al sitio. El original queda fuera del proyecto. Prompt y alcance: `docs/visualizador-dicom-image.md`.
