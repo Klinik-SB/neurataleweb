@@ -27,6 +27,13 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 - Sin errores de consola durante la prueba del formulario.
 - Lanzadores de inicio, cierre y reinicio probados. Servicio local disponible en http://127.0.0.1:5188.
 
+## Revisión tipográfica del 22 de octubre de 2026
+
+- Tamaños generales ampliados, con texto base de 22,5 px y rótulos, controles, pies de imágenes ampliadas y etiquetas de I+D de al menos 18 px. El texto incrustado en capturas y maquetas ilustrativas conserva su escala propia.
+- Revisión visual en Chrome del inicio, las características de HCOP, una captura ampliada y las tarjetas de investigación; pies y etiquetas legibles. Vista del inicio guardada en `docs/previews/inicio-tipografia.jpg`.
+- Menú adaptable hasta 1200 px, con cierre y desbloqueo del desplazamiento al volver a escritorio. Comprobación funcional del JavaScript real al pasar de 1000 a 1300 px.
+- Sitio regenerado; sintaxis JavaScript y verificación de las 22 páginas, los 53 recursos/rutas internos y los 14 proyectos correctas.
+
 ## Alcance
 
 La web presenta productos e investigación; no ejecuta los sistemas médicos dentro del sitio. Las vistas de interfaces ilustrativas están rotuladas. Las capturas reales de RadioBioCalc usan ejemplos educativos.

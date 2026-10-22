@@ -17,7 +17,7 @@ menuButton?.addEventListener('click', () => {
 });
 $$('nav a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') { closeMenu(); menuButton.focus(); } });
-matchMedia('(min-width: 761px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
+matchMedia('(min-width: 1201px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 
 const mega = $('[data-mega-toggle]');
 const megaPanel = $('#solutions-menu');
