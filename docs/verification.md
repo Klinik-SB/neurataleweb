@@ -2,6 +2,8 @@
 
 Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de investigación, 5 investigaciones, visión, contacto, créditos, privacidad y error 404.
 
+Última revisión de publicación: salida estática de 3,93 MB, 169 rutas/recursos comprobados y 21 URLs indexables. La copia limpia, sin `dist/` ni dependencias instaladas, pasó `npm ci`, build y verificación; sus 115 archivos coinciden byte a byte con la compilación principal. [Detalle de la optimización](optimizacion-publicacion.md) y [preparación de Cloudflare Pages](cloudflare-pages.md). La publicación externa permanece pendiente.
+
 ## Comprobaciones realizadas
 
 - Generación completa y sintaxis JavaScript correctas.
@@ -42,4 +44,4 @@ El contacto está por definir. La dirección de ejemplo utiliza el dominio reser
 
 ## Vistas guardadas
 
-Las capturas de revisión están en `docs/previews/`. Las capturas de las aplicaciones originales, dentro de `dist/assets/screens/`.
+Las capturas de revisión están en `docs/previews/`. Las capturas de las aplicaciones originales, dentro de `src/assets/screens/`.

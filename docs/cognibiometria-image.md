@@ -1,6 +1,6 @@
 # Imagen del panel de CogniBiometría-IA
 
-Archivo final: `dist/assets/screens/cognibiometria-evaluacion-anon.png` (1536 × 1024).
+Archivo final: `src/assets/screens/cognibiometria-evaluacion-anon.png` (1536 × 1024).
 
 Imagen aportada por el usuario, editada con ImageGen integrado, sin CLI. Se difuminaron los nombres y las iniciales de las tres alertas. Una revisión visual independiente a resolución de salida confirmó que las seis zonas quedaron ilegibles y no observó otros identificadores personales legibles. El original permanece fuera del proyecto y del repositorio.
 

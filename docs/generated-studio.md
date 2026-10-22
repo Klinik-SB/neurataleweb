@@ -1,6 +1,6 @@
 # Espacio de investigación conceptual
 
-- Archivo final: `dist/assets/art/research-studio.png`.
+- Archivo final: `src/assets/art/research-studio.png`.
 - Fecha: **2026-10-22**.
 - Herramienta: **image_gen integrado**, modo generación, fondo opaco.
 - Categoría: `photorealistic-natural`.

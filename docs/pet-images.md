@@ -6,9 +6,9 @@ Capturas aportadas por el usuario. Edición de privacidad mediante ImageGen inte
 
 | Archivo | Dimensiones | Contenido |
 | --- | --- | --- |
-| `dist/assets/screens/pet-fusion-anon.png` | 1528 × 1029 | Fusión PET/CT y regiones de interés; cabecera del paciente difuminada. |
-| `dist/assets/screens/pet-ct-anon.png` | 1495 × 1052 | Revisión anatómica en CT con regiones señaladas; cabecera del paciente difuminada. |
-| `dist/assets/screens/pet-recortes-lesiones.png` | 2202 × 1212 | Recortes por lesión y mediciones; copia sin edición. |
+| `src/assets/screens/pet-fusion-anon.png` | 1528 × 1029 | Fusión PET/CT y regiones de interés; cabecera del paciente difuminada. |
+| `src/assets/screens/pet-ct-anon.png` | 1495 × 1052 | Revisión anatómica en CT con regiones señaladas; cabecera del paciente difuminada. |
+| `src/assets/screens/pet-recortes-lesiones.png` | 2202 × 1212 | Recortes por lesión y mediciones; copia sin edición. |
 
 Las dos versiones editadas se revisaron visualmente a resolución de salida por un segundo agente: la cabecera quedó ilegible y no se observaron otros identificadores legibles. Los originales del visor no se incorporan al repositorio. La captura de recortes no muestra identificadores personales directos en la revisión visual. Esta documentación describe los datos visibles; no certifica una anonimización de datos clínicos originales.
 

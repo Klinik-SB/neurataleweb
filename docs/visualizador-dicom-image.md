@@ -1,6 +1,6 @@
 # Captura del Visualizador DICOM
 
-Archivo final: dist/assets/screens/visualizador-dicom-anon.png.
+Archivo final: src/assets/screens/visualizador-dicom-anon.png.
 
 Captura aportada para la web, editada con ImageGen integrado para difuminar datos visibles de identificación. Se ocultaron las dos cabeceras de paciente/fecha expuestas, el encabezado y los metadatos del estudio del lateral, el texto de conexión PACS y las pequeñas anotaciones incrustadas que podían identificar el estudio.
 

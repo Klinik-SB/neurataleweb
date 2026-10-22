@@ -4,8 +4,8 @@ Ilustraciones conceptuales creadas con ImageGen integrado, sin CLI, a pedido del
 
 | Archivo final | Tamaño | Uso |
 | --- | --- | --- |
-| `dist/assets/art/genesis-sociedad-agentes.png` | 1536 × 1024 | Portada y tarjetas de GENESIS: grupos de agentes y vínculos en un entorno compartido. |
-| `dist/assets/art/radiobiologia-secuencias-celulares.png` | 1536 × 1024 | Portada y tarjetas de Perturbaciones radiobiológicas: cultivos y secuencias con los mismos elementos en distinto orden. |
+| `src/assets/art/genesis-sociedad-agentes.png` | 1536 × 1024 | Portada y tarjetas de GENESIS: grupos de agentes y vínculos en un entorno compartido. |
+| `src/assets/art/radiobiologia-secuencias-celulares.png` | 1536 × 1024 | Portada y tarjetas de Perturbaciones radiobiológicas: cultivos y secuencias con los mismos elementos en distinto orden. |
 
 La captura aportada de GENESIS se conserva en su galería ampliable. La ilustración radiobiológica no presenta una diferencia de respuesta celular demostrada entre secuencias; representa la pregunta experimental.
 

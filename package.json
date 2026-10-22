@@ -5,9 +5,15 @@
   "description": "Sitio institucional de Neuratale: software, inteligencia artificial e investigación.",
   "type": "module",
   "scripts": {
+    "assets": "node scripts/images.mjs",
     "build": "node scripts/build.mjs",
     "start": "node server.mjs",
     "check": "node scripts/check.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
 }

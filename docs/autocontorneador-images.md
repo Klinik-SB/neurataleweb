@@ -4,8 +4,8 @@ Se incorporan dos capturas aportadas para la web: la selección de serie/modelo 
 
 ## Archivos finales
 
-- dist/assets/screens/autocontorneador-flujo-anon.png
-- dist/assets/screens/autocontorneador-mpr-anon.png
+- src/assets/screens/autocontorneador-flujo-anon.png
+- src/assets/screens/autocontorneador-mpr-anon.png
 
 ## Edición de privacidad
 

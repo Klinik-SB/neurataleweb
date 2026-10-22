@@ -1,6 +1,6 @@
 # Imagen principal del Buscador de protocolos
 
-Archivo final: `dist/assets/art/protocolos-investigacion-criterios.png` (1536 × 1024).
+Archivo final: `src/assets/art/protocolos-investigacion-criterios.png` (1536 × 1024).
 
 Ilustración conceptual creada con ImageGen integrado, sin CLI, a pedido del usuario. Representa búsqueda documental y revisión de criterios con estados y datos pendientes. No es una captura de la aplicación ni representa una admisión a un ensayo clínico.
 

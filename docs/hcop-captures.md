@@ -4,9 +4,9 @@ Capturas obtenidas en la versión abierta de HCOP mediante el navegador, el 22 d
 
 | Archivo final | Tamaño | Contenido |
 | --- | --- | --- |
-| `dist/assets/screens/hcop-espacio-clinico.jpg` | 1440 × 765 | Espacio clínico y panel de estudios sin paciente abierto. |
-| `dist/assets/screens/hcop-protocolos.jpg` | 1440 × 765 | Catálogo de protocolos y detalle de un registro operativo existente, sin pacientes. |
-| `dist/assets/screens/hcop-hospital-dia.jpg` | 1440 × 765 | Configuración operativa de sillones, jornada y fracción horaria; sin turnos ni pacientes. |
+| `src/assets/screens/hcop-espacio-clinico.jpg` | 1440 × 765 | Espacio clínico y panel de estudios sin paciente abierto. |
+| `src/assets/screens/hcop-protocolos.jpg` | 1440 × 765 | Catálogo de protocolos y detalle de un registro operativo existente, sin pacientes. |
+| `src/assets/screens/hcop-hospital-dia.jpg` | 1440 × 765 | Configuración operativa de sillones, jornada y fracción horaria; sin turnos ni pacientes. |
 
 Se conserva el JPEG original producido por el navegador, sin composición ni edición de la interfaz. Los campos y cifras visibles corresponden al estado de configuración de esa instancia; no se presentan como recomendaciones clínicas ni como una configuración universal.
 

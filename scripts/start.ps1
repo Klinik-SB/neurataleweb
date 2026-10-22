@@ -3,6 +3,18 @@ $ErrorActionPreference = 'Stop'
 $projectDirectory = Split-Path -Parent $PSScriptRoot
 $runtimeDirectory = Join-Path $projectDirectory '.local'
 $address = 'http://127.0.0.1:5188'
+$nodePath = (Get-Command node -ErrorAction Stop).Source
+$buildPath = Join-Path $projectDirectory 'scripts\build.mjs'
+if (-not (Test-Path -LiteralPath (Join-Path $projectDirectory 'node_modules\sharp\package.json'))) {
+    $npmPath = (Get-Command npm.cmd -ErrorAction Stop).Source
+    Push-Location -LiteralPath $projectDirectory
+    try {
+        & $npmPath ci
+        if ($LASTEXITCODE -ne 0) { throw 'No se pudieron instalar las herramientas de compilación. Revisá la conexión y ejecutá npm ci.' }
+    } finally { Pop-Location }
+}
+& $nodePath $buildPath
+if ($LASTEXITCODE -ne 0) { throw 'No se pudo generar la web. El servidor no se inicia con una compilación incompleta.' }
 $alreadyStarted = $false
 try {
     $response = Invoke-WebRequest -Uri $address -TimeoutSec 2 -UseBasicParsing
@@ -13,7 +25,6 @@ if (-not $alreadyStarted) {
         throw 'Otro programa usa el puerto 5188. Cerralo o ejecuta Neuratale con otra configuración de puerto.'
     }
     New-Item -ItemType Directory -Path $runtimeDirectory -Force | Out-Null
-    $nodePath = (Get-Command node -ErrorAction Stop).Source
     $serverPath = Join-Path $projectDirectory 'server.mjs'
     $process = Start-Process -FilePath $nodePath -ArgumentList @('"' + $serverPath + '"') -WorkingDirectory $projectDirectory -WindowStyle Hidden -RedirectStandardOutput (Join-Path $runtimeDirectory 'server.log') -RedirectStandardError (Join-Path $runtimeDirectory 'server.error.log') -PassThru
     $process.Id | Set-Content -LiteralPath (Join-Path $runtimeDirectory 'server.pid')

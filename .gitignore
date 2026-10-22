@@ -1,3 +1,5 @@
 .local/
+dist/
+node_modules/
 *.log
 docs/content-sources.md

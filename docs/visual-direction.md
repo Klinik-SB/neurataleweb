@@ -6,8 +6,8 @@ Sitio claro, blanco cálido y gris niebla; azul profundo #15333e y turquesa #0d9
 
 Se utilizó la herramienta integrada ImageGen, sin API externa ni CLI. Los originales se conservan en la carpeta de imágenes generadas de Codex; los recursos utilizados están copiados dentro del proyecto.
 
-- Arte de portada: dist/assets/art/neural-sculpture.png
-- Adaptación para fondo claro del logo original: dist/assets/brand/neuratale-light.png
+- Arte de portada: src/assets/art/neural-sculpture.png
+- Adaptación para fondo claro del logo original: src/assets/brand/neuratale-light.png
 
 ### Prompt de la portada
 

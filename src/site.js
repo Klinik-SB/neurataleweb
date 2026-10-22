@@ -101,7 +101,7 @@ $$('[data-zoom]').forEach(button => button.addEventListener('click', () => {
   if (!galleryDialog) return;
   previousFocus = button;
   const source = $('img', button);
-  $('#dialog-image').src = source.src;
+  $('#dialog-image').src = source.dataset.fullSrc || source.currentSrc || source.src;
   $('#dialog-image').alt = source.alt;
   $('#dialog-caption').textContent = button.dataset.caption || source.alt;
   galleryDialog.showModal();
@@ -118,6 +118,11 @@ contactForm?.addEventListener('submit', event => {
   const data = new FormData(contactForm);
   const message = `Consulta para Neuratale\n\nNombre: ${data.get('name')}\nOrganización: ${data.get('organization') || 'No indicada'}\nCorreo: ${data.get('email')}\nInterés: ${data.get('interest')}\n\n${data.get('message')}\n`;
   $('#prepared-message').value = message;
+  const emailLink = $('[data-email-message]');
+  const recipient = contactForm.dataset.contactEmail;
+  if (emailLink && recipient && !recipient.endsWith('.example')) {
+    emailLink.href = `mailto:${encodeURIComponent(recipient)}?subject=${encodeURIComponent(`Consulta Neuratale · ${data.get('interest')}`)}&body=${encodeURIComponent(message)}`;
+  }
   const output = $('#contact-output'); output.hidden = false;
   output.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'center'});
   $('#contact-result-title').focus();

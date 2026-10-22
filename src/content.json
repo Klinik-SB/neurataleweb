@@ -7,7 +7,12 @@
       "eyebrow": "Historia clínica y gestión asistencial",
       "tagline": "Historia clínica y operación oncológica en un mismo sistema.",
       "description": "Historia clínica y gestión oncológica que reúne la trayectoria del paciente, diagnósticos y estadificación, protocolos y prescripciones, farmacia, agenda por sillón y Hospital de Día. Incluye estudios, herramientas clínicas y funciones de investigación, roles y trazabilidad.",
-      "status": "Desarrollo de software",
+      "status": "Producto en uso",
+      "access": {
+        "url": "https://hco.neuratale.com.ar",
+        "label": "Ingresar a HCOP",
+        "kind": "app"
+      },
       "features": [
         {
           "title": "Historia clínica longitudinal",
