@@ -25,3 +25,7 @@ Se autorizó tomar capturas nuevas mediante CUA, sin generar ni editar imágenes
 | `dist/assets/screens/radiomodelos.jpg` | `/radiomodelos.html`: portada del curso RadioModelos. | Captura real, contenido educativo; no contiene datos de pacientes. |
 
 El navegador CUA entrega capturas JPEG; se conservó ese formato original con extensión `.jpg`. No son imágenes generadas, composiciones ni interfaces reconstruidas. Las aplicaciones fuente permanecieron sin modificaciones.
+
+## Capturas aportadas del autocontorneador
+
+Las versiones `autocontorneador-flujo-anon.png` y `autocontorneador-mpr-anon.png` se incluyen con los datos visibles de identificación difuminados mediante edición de imágenes. Los originales aportados no se incluyen en el proyecto ni en Git. Los prompts y el alcance de edición están documentados en `docs/autocontorneador-images.md`.
