@@ -1,0 +1,27 @@
+# Activos de marca y pantallas
+
+## Marca original
+
+Copias sin editar, inspeccionadas visualmente el 21 de octubre de 2026. No se generaron ni alteraron imágenes.
+
+| Archivo del sitio | Fuente | Uso sugerido |
+| --- | --- | --- |
+| `dist/assets/brand/neuratale-wordmark.png` | `C:\visualizador\assets\logonombre.png` | Marca completa en portada o franja oscura. Conserva fondo azul oscuro opaco. |
+| `dist/assets/brand/neuratale-symbol.png` | `C:\visualizador\assets\logofondo.png` | Símbolo en bloque oscuro o sección institucional. Conserva fondo negro opaco; no es un recorte transparente. |
+
+## Capturas
+
+No se copiaron capturas de producto: no se localizaron capturas preexistentes en RadioBioCalc ni en el material de presentación GineIA seleccionado. Las capturas de HCOP en `docs/media/demo-flujo-7-pasos/capturas` se documentan como demostrativas, pero las inspeccionadas contienen nombres e identificadores visibles; se excluyeron para mantener la web libre de esos datos. No se editaron ni recortaron esas imágenes.
+
+Una futura captura de RadioBioCalc puede mostrar parámetros de simulación educativos; una de HCOP debería tomarse en login o en un módulo vacío, sin pacientes. Ningún archivo de los proyectos fuente fue modificado.
+
+## Capturas reales autorizadas posteriormente
+
+Se autorizó tomar capturas nuevas mediante CUA, sin generar ni editar imágenes. Se sirvió temporalmente únicamente `C:\Proyectos\RadiobioCalc\RadioBioCalc` en `http://127.0.0.1:5196`, limitado a loopback. El servidor fue detenido después de obtener las capturas.
+
+| Archivo | Origen y contenido | Revisión |
+| --- | --- | --- |
+| `dist/assets/screens/radiobiocalc.jpg` | `/#results`: resultados de los dos esquemas de demostración predeterminados de RadioBioCalc. | Captura real, valores educativos; no contiene datos de pacientes. |
+| `dist/assets/screens/radiomodelos.jpg` | `/radiomodelos.html`: portada del curso RadioModelos. | Captura real, contenido educativo; no contiene datos de pacientes. |
+
+El navegador CUA entrega capturas JPEG; se conservó ese formato original con extensión `.jpg`. No son imágenes generadas, composiciones ni interfaces reconstruidas. Las aplicaciones fuente permanecieron sin modificaciones.

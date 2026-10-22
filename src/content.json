@@ -1,0 +1,538 @@
+{
+  "products": [
+    {
+      "slug": "hcop",
+      "name": "HCOP",
+      "category": "gestion",
+      "eyebrow": "Historia clínica y gestión asistencial",
+      "tagline": "El recorrido oncológico, desde la consulta hasta la administración.",
+      "description": "Historia clínica oncológica con diagnósticos, evoluciones, estudios y prescripciones. Integra herramientas para protocolos, farmacia y Hospital de Día, junto con turnos, investigación y auditoría del proceso asistencial.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Historia oncológica",
+          "text": "Organiza diagnósticos, evoluciones y estudios para consultar la trayectoria del paciente."
+        },
+        {
+          "title": "Protocolos y prescripciones",
+          "text": "Reúne la definición de protocolos y el registro de prescripciones dentro del trabajo clínico."
+        },
+        {
+          "title": "Farmacia y Hospital de Día",
+          "text": "Acompaña la preparación y administración de tratamientos con funciones diferenciadas por rol."
+        },
+        {
+          "title": "Gestión y seguimiento",
+          "text": "Incorpora turnos, herramientas de investigación y auditoría de la actividad asistencial."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Documentar la atención",
+          "text": "Registrar diagnósticos, evoluciones y estudios en la historia oncológica."
+        },
+        {
+          "title": "Coordinar el tratamiento",
+          "text": "Trabajar con protocolos y prescripciones, preparación en farmacia y administración en Hospital de Día."
+        },
+        {
+          "title": "Seguir y auditar",
+          "text": "Consultar el recorrido asistencial y apoyar la gestión, la investigación y la auditoría."
+        }
+      ],
+      "audience": [
+        "Instituciones de salud",
+        "Servicios de oncología y radioterapia",
+        "Equipos asistenciales"
+      ],
+      "note": "El alcance y las conexiones con otros sistemas se definen para cada implementación.",
+      "imageKey": "hcop"
+    },
+    {
+      "slug": "visualizador-dicom",
+      "name": "Visualizador DICOM",
+      "category": "imagenes",
+      "eyebrow": "Imágenes médicas",
+      "tagline": "Explorar la imagen. Comprender la anatomía.",
+      "description": "Visualizador de imágenes médicas con vistas axial, sagital y coronal, contorneo manual e intercambio de estructuras RTSTRUCT. Incluye comunicación PACS configurable para adaptarse al entorno de trabajo.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Tres vistas anatómicas",
+          "text": "Permite recorrer el estudio en planos axial, sagital y coronal."
+        },
+        {
+          "title": "Contorneo manual",
+          "text": "Ofrece herramientas para definir regiones de interés y delimitar estructuras sobre las imágenes."
+        },
+        {
+          "title": "Intercambio RTSTRUCT",
+          "text": "Importa y exporta conjuntos de estructuras para trabajar con contornos en formato DICOM RTSTRUCT."
+        },
+        {
+          "title": "Comunicación PACS",
+          "text": "Incorpora comunicación configurable con sistemas de archivo de imágenes, según el entorno institucional."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Explorar el estudio",
+          "text": "Recorrer las imágenes en las vistas axial, sagital y coronal."
+        },
+        {
+          "title": "Delimitar estructuras",
+          "text": "Definir regiones de interés, realizar contornos manuales o revisar estructuras importadas."
+        },
+        {
+          "title": "Intercambiar y revisar",
+          "text": "Importar o exportar RTSTRUCT y evaluar los contornos dentro del contexto de cada trabajo."
+        }
+      ],
+      "audience": [
+        "Diagnóstico por imágenes",
+        "Radiooncología",
+        "Equipos de investigación"
+      ],
+      "note": "La interpretación de las imágenes corresponde al profesional responsable.",
+      "imageKey": "dicom"
+    },
+    {
+      "slug": "autocontorneador",
+      "name": "Autocontorneador y segmentador",
+      "category": "imagenes",
+      "eyebrow": "Inteligencia artificial aplicada a imágenes",
+      "tagline": "Una primera segmentación para el criterio experto.",
+      "description": "Modelos de inteligencia artificial para generar segmentaciones de estructuras anatómicas. Una herramienta de apoyo al contorneo en radioterapia y al análisis de imágenes médicas.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Segmentación automática",
+          "text": "Genera propuestas de contorno a partir de imágenes médicas."
+        },
+        {
+          "title": "Aplicación en radioterapia",
+          "text": "Acompaña la delimitación anatómica dentro del proceso de preparación del tratamiento."
+        },
+        {
+          "title": "Revisión profesional",
+          "text": "Sitúa la evaluación del resultado en el centro del flujo de trabajo."
+        },
+        {
+          "title": "Modelos según la tarea",
+          "text": "Aborda estructuras y estudios de acuerdo con el modelo disponible para cada uso."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Preparar",
+          "text": "Seleccionar el estudio y la tarea de segmentación."
+        },
+        {
+          "title": "Generar",
+          "text": "Obtener una propuesta de contornos mediante el modelo correspondiente."
+        },
+        {
+          "title": "Evaluar",
+          "text": "Revisar y, cuando corresponda, corregir el resultado antes de utilizarlo."
+        }
+      ],
+      "audience": [
+        "Servicios de radioterapia",
+        "Profesionales de imágenes",
+        "Investigadores en segmentación"
+      ],
+      "note": "Los contornos generados requieren revisión profesional. La cobertura depende de cada modelo.",
+      "imageKey": "autocontorneador"
+    },
+    {
+      "slug": "uroneuratale",
+      "name": "UroNeuratale",
+      "category": "asistentes",
+      "eyebrow": "Conocimiento especializado",
+      "tagline": "Una conversación con la documentación uro-oncológica.",
+      "description": "Asistente de inteligencia artificial basado en recuperación de información documental, o RAG. Acerca documentación especializada al trabajo de consulta y estudio en uro-oncología.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Consulta en lenguaje natural",
+          "text": "Permite formular preguntas sin convertirlas en búsquedas técnicas."
+        },
+        {
+          "title": "Recuperación documental",
+          "text": "Busca información relevante dentro de la documentación incorporada al sistema."
+        },
+        {
+          "title": "Contexto especializado",
+          "text": "Orienta la conversación hacia el conocimiento uro-oncológico."
+        },
+        {
+          "title": "Acceso al conocimiento",
+          "text": "Acompaña la revisión de contenidos y la preparación de nuevas preguntas."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Preguntar",
+          "text": "Plantear una consulta sobre el tema que se necesita explorar."
+        },
+        {
+          "title": "Recuperar",
+          "text": "Relacionar la pregunta con la documentación disponible."
+        },
+        {
+          "title": "Contrastar",
+          "text": "Revisar la respuesta junto con las fuentes y el contexto profesional."
+        }
+      ],
+      "audience": [
+        "Profesionales de uro-oncología",
+        "Equipos de formación",
+        "Investigadores"
+      ],
+      "note": "Las respuestas dependen de la documentación disponible y requieren contraste profesional.",
+      "imageKey": "uroneuratale"
+    },
+    {
+      "slug": "ia-pet",
+      "name": "IA PET y preinformes",
+      "category": "imagenes",
+      "eyebrow": "Imagen molecular",
+      "tagline": "De la detección asistida a una revisión mejor organizada.",
+      "description": "Modelos de inteligencia artificial para asistir la detección de lesiones en estudios PET y la elaboración de preinformes. Una línea de software que acompaña el análisis de imagen molecular.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Análisis de imágenes PET",
+          "text": "Procesa estudios mediante modelos preparados para tareas de imagen molecular."
+        },
+        {
+          "title": "Detección asistida",
+          "text": "Identifica regiones de interés para su evaluación por el especialista."
+        },
+        {
+          "title": "Preinformes",
+          "text": "Apoya la organización de hallazgos en una instancia preliminar de documentación."
+        },
+        {
+          "title": "Revisión del especialista",
+          "text": "Mantiene la interpretación y el informe final bajo responsabilidad profesional."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Seleccionar",
+          "text": "Definir el estudio y el modelo adecuado para la tarea."
+        },
+        {
+          "title": "Analizar",
+          "text": "Obtener resultados de detección y material para el preinforme."
+        },
+        {
+          "title": "Revisar e informar",
+          "text": "Contrastar los hallazgos con la imagen y completar la interpretación profesional."
+        }
+      ],
+      "audience": [
+        "Medicina nuclear",
+        "Diagnóstico por imágenes",
+        "Investigación en imagen molecular"
+      ],
+      "note": "El preinforme es preliminar. Cada modelo tiene un alcance de uso específico.",
+      "imageKey": "pet"
+    },
+    {
+      "slug": "volumetria",
+      "name": "Volumetría con IA",
+      "category": "imagenes",
+      "eyebrow": "Segmentación y cuantificación",
+      "tagline": "Convertir estructuras en información medible.",
+      "description": "Herramientas de segmentación y cuantificación volumétrica de órganos y estructuras anatómicas en tomografía y resonancia magnética. Desarrolladas para acompañar el análisis de imágenes y la investigación.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Tomografía y resonancia",
+          "text": "Aborda estudios de TC y RM según los modelos disponibles."
+        },
+        {
+          "title": "Segmentación anatómica",
+          "text": "Delimita estructuras para establecer la base de la medición."
+        },
+        {
+          "title": "Cuantificación de volumen",
+          "text": "Obtiene información volumétrica a partir de las segmentaciones."
+        },
+        {
+          "title": "Análisis de estructuras",
+          "text": "Aporta mediciones para su interpretación en el contexto de cada trabajo."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Definir la estructura",
+          "text": "Seleccionar el estudio y la anatomía que se va a evaluar."
+        },
+        {
+          "title": "Segmentar y medir",
+          "text": "Generar la delimitación y obtener su cuantificación volumétrica."
+        },
+        {
+          "title": "Interpretar",
+          "text": "Revisar el contorno y valorar la medición con criterio profesional."
+        }
+      ],
+      "audience": [
+        "Profesionales de imágenes",
+        "Equipos clínicos",
+        "Investigación cuantitativa"
+      ],
+      "note": "La calidad de la medición depende del estudio, la estructura y la revisión de la segmentación.",
+      "imageKey": "volumetria"
+    },
+    {
+      "slug": "radiobiocalc",
+      "name": "RadioBioCalc",
+      "category": "investigacion",
+      "eyebrow": "Radiobiología interactiva",
+      "tagline": "Ver los modelos. Explorar sus límites. Aprender radiobiología.",
+      "description": "Una herramienta educativa para comparar esquemas de radiación y explorar modelos radiobiológicos. Combina cálculos, gráficos y recorridos de aprendizaje para relacionar las ecuaciones con sus supuestos.",
+      "status": "Herramienta educativa",
+      "features": [
+        {
+          "title": "Comparación de esquemas",
+          "text": "Explora dosis por fracción, BED y EQD2 entre alternativas de fraccionamiento."
+        },
+        {
+          "title": "Modelos TCP y NTCP",
+          "text": "Permite estudiar curvas de respuesta tumoral y de tejido sano."
+        },
+        {
+          "title": "Tiempo y reparación",
+          "text": "Visualiza el efecto de la repoblación y la reparación incompleta dentro de los modelos."
+        },
+        {
+          "title": "Aprendizaje guiado",
+          "text": "Integra explicaciones, ecuaciones y laboratorios interactivos."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Elegir un escenario",
+          "text": "Seleccionar un cálculo, un modelo o un recorrido de aprendizaje."
+        },
+        {
+          "title": "Explorar parámetros",
+          "text": "Modificar las condiciones y observar cómo cambian los resultados."
+        },
+        {
+          "title": "Comprender",
+          "text": "Revisar las ecuaciones, sus supuestos y los límites de interpretación."
+        }
+      ],
+      "audience": [
+        "Estudiantes y residentes",
+        "Docentes de radiobiología",
+        "Profesionales en formación"
+      ],
+      "note": "Herramienta educativa. No está validada para prescripción ni toma de decisiones clínicas.",
+      "imageKey": "radiobiocalc"
+    },
+    {
+      "slug": "buscador-protocolos",
+      "name": "Buscador de protocolos",
+      "category": "investigacion",
+      "eyebrow": "Investigación clínica",
+      "tagline": "Ordenar los criterios. Hacer visible lo que falta.",
+      "description": "Aplicación para explorar protocolos de investigación y realizar una preselección documental de candidatos. Organiza criterios, evidencia disponible y datos pendientes en un mismo recorrido de revisión.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Búsqueda transversal",
+          "text": "Permite explorar protocolos mediante búsquedas y filtros."
+        },
+        {
+          "title": "Fichas por protocolo",
+          "text": "Reúne la información relevante para revisar cada estudio."
+        },
+        {
+          "title": "Criterios individualizados",
+          "text": "Desglosa condiciones de inclusión y exclusión para su evaluación documental."
+        },
+        {
+          "title": "Evidencia y pendientes",
+          "text": "Distingue la información disponible de los datos desconocidos o que requieren comprobación."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Explorar",
+          "text": "Buscar protocolos y revisar sus condiciones generales."
+        },
+        {
+          "title": "Contrastar criterios",
+          "text": "Relacionar la documentación disponible con las condiciones de cada estudio."
+        },
+        {
+          "title": "Completar la revisión",
+          "text": "Identificar pendientes y elevar la evaluación al equipo investigador."
+        }
+      ],
+      "audience": [
+        "Unidades de investigación clínica",
+        "Equipos de oncología",
+        "Coordinación de estudios"
+      ],
+      "note": "La preselección documental no confirma elegibilidad. La decisión requiere el protocolo vigente y la evaluación del investigador.",
+      "imageKey": "protocolos"
+    },
+    {
+      "slug": "oncoai",
+      "name": "OncoAI",
+      "category": "asistentes",
+      "eyebrow": "Interacción conversacional y voz",
+      "tagline": "Una forma más natural de conversar con la información.",
+      "description": "Asistente conversacional con consultas por texto y respuestas acompañadas de voz sintetizada. Combina modelos de lenguaje y una voz personalizada para ofrecer otra forma de acceder a los contenidos del entorno.",
+      "status": "Desarrollo de software",
+      "features": [
+        {
+          "title": "Conversación por texto",
+          "text": "Permite formular preguntas y continuar el intercambio desde una interfaz de consulta."
+        },
+        {
+          "title": "Respuestas con voz",
+          "text": "Convierte el texto de las respuestas en audio mediante el servicio de síntesis de voz."
+        },
+        {
+          "title": "Voz personalizada",
+          "text": "Utiliza una voz propia para acompañar las respuestas del asistente."
+        },
+        {
+          "title": "Modelos de lenguaje",
+          "text": "Genera respuestas a partir del modelo y los contenidos disponibles en cada entorno."
+        }
+      ],
+      "workflow": [
+        {
+          "title": "Consultar",
+          "text": "Iniciar una conversación sobre el contenido que se quiere explorar."
+        },
+        {
+          "title": "Escuchar",
+          "text": "Recibir una respuesta con el apoyo de la síntesis de voz."
+        },
+        {
+          "title": "Profundizar",
+          "text": "Continuar el intercambio con nuevas preguntas y revisión del contenido."
+        }
+      ],
+      "audience": [
+        "Profesionales y equipos de formación",
+        "Proyectos de asistentes especializados",
+        "Entornos de divulgación"
+      ],
+      "note": "El alcance depende del modelo y de los contenidos incorporados a cada entorno.",
+      "imageKey": "oncoai"
+    }
+  ],
+  "research": [
+    {
+      "slug": "gineia",
+      "name": "GineIA",
+      "category": "medicina",
+      "tagline": "Investigar qué factores acompañan los resultados en cáncer de cérvix.",
+      "description": "Trabajo de investigación institucional sobre modelos de control clínico-radiológico a doce meses. Estudia asociaciones con variables clínicas, dosimétricas y logísticas para generar nuevas hipótesis sobre el proceso asistencial.",
+      "status": "Investigación y desarrollo",
+      "questions": [
+        "¿Qué variables se asocian con el control clínico-radiológico a doce meses?",
+        "¿Cómo se relacionan los factores clínicos, dosimétricos y logísticos?",
+        "¿Qué hallazgos justifican nuevas hipótesis de investigación?"
+      ],
+      "approach": [
+        "Análisis de variables del proceso asistencial.",
+        "Desarrollo y evaluación de modelos predictivos.",
+        "Interpretación científica de asociaciones y limitaciones."
+      ],
+      "note": "Investigación institucional en cáncer de cérvix. Los modelos se estudian con fines exclusivamente investigacionales y no guían indicaciones de tratamiento.",
+      "imageKey": "gineia"
+    },
+    {
+      "slug": "perturbaciones-radiobiologicas",
+      "name": "Perturbaciones radiobiológicas",
+      "category": "medicina",
+      "tagline": "La misma dosis total. Una pregunta sobre el orden.",
+      "description": "Proyecto experimental para investigar si cambiar el orden de las mismas fracciones de radiación modifica la respuesta celular. Propone combinar experimentación in vitro con el desarrollo posterior de modelos de dosis-respuesta.",
+      "status": "Investigación y desarrollo",
+      "questions": [
+        "¿Puede el orden de las fracciones modificar la respuesta celular?",
+        "¿Qué diferencias aparecen al mantener constante la dosis total?",
+        "¿Qué información experimental puede aportar a nuevos modelos predictivos?"
+      ],
+      "approach": [
+        "Diseño de secuencias de irradiación comparables.",
+        "Experimentación in vitro y análisis de respuesta celular.",
+        "Exploración de modelos predictivos con los datos generados."
+      ],
+      "note": "Línea experimental preclínica. Sus hipótesis requieren validación y no se trasladan directamente a la práctica asistencial.",
+      "imageKey": "radiobiologia"
+    },
+    {
+      "slug": "genesis",
+      "name": "GENESIS",
+      "category": "simulacion",
+      "tagline": "Observar sociedades que emergen de la conversación.",
+      "description": "Plataforma experimental de simulación multiagente con modelos de lenguaje locales. Explora cómo surgen cooperación, conflicto y vínculos cuando distintos agentes interactúan en un entorno compartido.",
+      "status": "Investigación y desarrollo",
+      "questions": [
+        "¿Qué dinámicas colectivas emergen entre agentes con modelos diferentes?",
+        "¿Cómo cambian los vínculos ante perturbaciones del entorno?",
+        "¿Qué patrones aparecen al observar las interacciones en el tiempo?"
+      ],
+      "approach": [
+        "Simulación de interacciones entre agentes con modelos locales.",
+        "Introducción de condiciones y escenarios experimentales.",
+        "Registro y observación longitudinal de las dinámicas sociales."
+      ],
+      "note": "Entorno de investigación con código en desarrollo. Las simulaciones permiten explorar hipótesis y no predicen de forma directa el comportamiento de sociedades reales.",
+      "imageKey": "genesis"
+    },
+    {
+      "slug": "edumeta-ia",
+      "name": "EduMeta-IA",
+      "category": "educacion",
+      "tagline": "Un aula simulada para investigar cómo enseñamos.",
+      "description": "Proyecto de simulación multiagente para la formación docente en ciencias, tecnología, ingeniería y matemática. Propone recrear dinámicas de aula y explorar estrategias de enseñanza frente a dificultades conceptuales.",
+      "status": "Investigación y desarrollo",
+      "questions": [
+        "¿Cómo ensayar estrategias docentes en un entorno controlado?",
+        "¿Cómo representar errores conceptuales persistentes en una simulación?",
+        "¿Qué retroalimentación puede ayudar a revisar una intervención pedagógica?"
+      ],
+      "approach": [
+        "Diseño de agentes y escenarios de aprendizaje STEM.",
+        "Simulación de interacciones y estrategias de enseñanza.",
+        "Exploración de evaluación pedagógica y retroalimentación."
+      ],
+      "note": "Proyecto en investigación. La utilidad pedagógica debe evaluarse con equipos docentes y evidencia educativa.",
+      "imageKey": "edumeta"
+    },
+    {
+      "slug": "cognibiometria-ia",
+      "name": "CogniBiometría-IA",
+      "category": "educacion",
+      "tagline": "Investigar las huellas de interacción para acompañar el aprendizaje.",
+      "description": "Línea de investigación sobre patrones de interacción en entornos educativos virtuales. Explora indicadores de dificultades de aprendizaje y apoyos metacognitivos que puedan aportar información útil a docentes y estudiantes.",
+      "status": "Investigación y desarrollo",
+      "questions": [
+        "¿Qué patrones de interacción ayudan a comprender una trayectoria de aprendizaje?",
+        "¿Qué señales merecen una revisión pedagógica más cercana?",
+        "¿Cómo diseñar apoyos metacognitivos ajustados al contexto del estudiante?"
+      ],
+      "approach": [
+        "Estudio de patrones de interacción en entornos virtuales.",
+        "Investigación de indicadores y formas de visualización docente.",
+        "Diseño y evaluación de apoyos metacognitivos personalizados."
+      ],
+      "note": "Los indicadores se investigan como apoyo pedagógico y no constituyen un diagnóstico clínico ni una clasificación definitiva del estudiante.",
+      "imageKey": "cognibiometria"
+    }
+  ]
+}

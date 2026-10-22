@@ -1,0 +1,3 @@
+.local/
+*.log
+docs/content-sources.md
