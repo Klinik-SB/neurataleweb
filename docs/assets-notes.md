@@ -61,3 +61,9 @@ Por solicitud posterior, las imágenes principales y las tarjetas de GENESIS y P
 ## Capturas aportadas de UroNeuratale
 
 Tres imágenes conservadas sin edición: `dist/assets/screens/uroneuratale-respuesta-documental.jpg` (1600 × 882), `uroneuratale-arbol-decision.jpg` (1600 × 852) y `uroneuratale-chat-visual.jpg` (1600 × 808). Proceden respectivamente de `453.jpeg` y de las dos imágenes de WhatsApp aportadas el 22 de octubre de 2026. La revisión independiente no observó datos de pacientes identificables. La segunda conserva una barra de pantalla compartida y un contraste reducido; se usa en la galería, mientras que la respuesta documental se utiliza como presentación. El chat visual muestra una consulta aún en preparación. La descripción RAG + grafos, orientada a urooncología y adaptable a otras patologías con documentación específica, fue confirmada por el usuario. Las capturas son ejemplos de interfaz; las recomendaciones visibles no se adoptan como indicaciones de esta web.
+
+## HCOP, protocolos de investigación y pie de página
+
+Se incorporaron tres capturas reales nuevas de HCOP, sin paciente abierto ni información de pacientes en las vistas de configuración. Archivos y alcance: `docs/hcop-captures.md`. El Buscador de protocolos utiliza una nueva ilustración conceptual creada con ImageGen integrado, documentada en `docs/protocolos-hero-image.md`.
+
+El pie de página utiliza la variante existente `neuratale-light.png`, con transparencia real y presentación blanca mediante CSS. Se elimina así el rectángulo azul del logotipo original y se conserva su silueta y composición. No se utiliza una variante raster nueva para el pie.

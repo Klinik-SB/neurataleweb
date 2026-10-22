@@ -5,7 +5,7 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 ## Comprobaciones realizadas
 
 - Generación completa y sintaxis JavaScript correctas.
-- Verificador de 22 páginas y 50 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
+- Verificador de 22 páginas y 53 rutas o recursos internos: sin recursos ausentes, anclas rotas ni identificadores duplicados; imágenes con texto alternativo. Los 14 proyectos se comprueban también dentro del catálogo y del menú.
 - Revisión independiente de contenido y navegación.
 - Navegador Chrome en escritorio y pantalla móvil de 390 × 844: catálogo, búsqueda con acentos, estado vacío y recuperación, filtro inicial por categoría, menú móvil y menú de productos.
 - Pestañas de productos en el inicio y ampliación/cierre de una captura real.
@@ -19,6 +19,10 @@ Sitio local, 22 páginas HTML: inicio, catálogo, 9 productos, espacio de invest
 - CogniBiometría-IA: imagen aportada del panel de evaluación, con tres nombres y tres grupos de iniciales difuminados mediante ImageGen integrado. Revisión visual independiente a resolución de salida y comprobación de presentación, ampliación y cierre en Chrome, sin errores de consola. El original permanece fuera del repositorio; el texto mantiene el alcance de investigación sobre modelos predictivos de evaluación.
 - GENESIS: captura del simulador incorporada a la galería. Portadas conceptuales de GENESIS y Perturbaciones radiobiológicas creadas con ImageGen integrado, revisadas independientemente y comprobadas visualmente en Chrome. Se identifican como imágenes generadas con IA y no representan resultados experimentales.
 - UroNeuratale: tres capturas aportadas, sin datos de pacientes identificables observados en la revisión independiente. Presentación y galería comprobadas en Chrome, incluyendo apertura y cierre del árbol de decisión. El texto RAG + grafos y adaptación a otras patologías refleja la descripción confirmada por el usuario. Sin errores de consola durante esta revisión.
+- Revisión editorial del inicio, la visión, los encabezados y los 14 proyectos: funciones más concretas, menos frases repetidas y preservación del alcance de cada herramienta y línea de investigación.
+- HCOP: tres capturas reales tomadas en el navegador, sin paciente abierto ni datos de pacientes en las vistas de configuración. Revisión visual independiente, ocho características principales contrastadas con código y documentación, y circuito de siete etapas de Hospital de Día. Presentación, sección de características y ampliación/cierre de captura comprobadas en Chrome.
+- Buscador de protocolos: nueva ilustración conceptual de documentos y criterios, creada con ImageGen integrado y comprobada en su portada. No representa una elegibilidad confirmada.
+- Pie de página: variante existente con fondo transparente, presentada en blanco, sin el rectángulo azul; comprobado visualmente en el navegador. Inicio y portada de HCOP también revisados. Sin errores de consola durante estas comprobaciones.
 - Formulario con información ficticia: preparación local del mensaje y copia al portapapeles comprobadas. Sin envío a terceros.
 - Sin errores de consola durante la prueba del formulario.
 - Lanzadores de inicio, cierre y reinicio probados. Servicio local disponible en http://127.0.0.1:5188.

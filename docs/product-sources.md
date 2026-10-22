@@ -4,10 +4,10 @@ El sitio presenta nueve soluciones de software y cinco líneas de investigación
 
 ## Código y documentación de referencia
 
-- HCOP: familia de desarrollos de historia clínica y gestión oncológica.
+- HCOP: familia de desarrollos de historia clínica y gestión oncológica. La descripción de sus ocho capacidades y del circuito de Hospital de Día se contrastó con el código y la documentación funcional del proyecto; las capturas corresponden a la versión abierta y a pantallas sin pacientes.
 - [Visualizador DICOM](https://github.com/Marcolyto/Visualizador): visualización, regiones de interés, contorneo e intercambio de estructuras.
 - [Precontorneo](https://github.com/Marcolyto/Precontorneo): herramientas de segmentación y autocontorneo.
-- [UroNeuratale](https://github.com/Marcolyto/uro_neuratale): asistente con recuperación documental.
+- [UroNeuratale](https://github.com/Marcolyto/uro_neuratale): asistente con recuperación documental (RAG) y grafos en urooncología, adaptable a otras patologías mediante documentación específica, según lo confirmado por el responsable del proyecto.
 - [RadioBioCalc](https://github.com/Marcolyto/RadioBioCalc): modelos radiobiológicos y formación.
 - [GENESIS](https://github.com/Marcolyto/Genesis): simulación multiagente.
 
