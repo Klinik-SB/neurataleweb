@@ -41,5 +41,6 @@ Si hay conflictos se resuelven en `develop`, nunca directo en `main`.
 
 - `npm ci` instala `sharp` (imágenes) y `wrangler` (despliegue). Ninguno viaja al sitio publicado.
 - La primera vez en cada máquina: `npx wrangler login`.
+- El proyecto `neurataleweb` ya existe en la cuenta de Cloudflare de Klinik (creado el 23 de octubre de 2026 con `wrangler pages project create neurataleweb --production-branch main --force`; el `--force` solo hace falta en la creación, porque wrangler 4.152+ intenta delegar a Workers).
 - `wrangler.jsonc` fija el nombre del proyecto y la carpeta `dist`. No agregar `functions/` ni Workers: el sitio es estático.
 - `deploy:*` corre build y check antes de subir; si el check falla, no se despliega.
