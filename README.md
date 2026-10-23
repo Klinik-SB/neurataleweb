@@ -66,7 +66,7 @@ HCOP cuenta con acceso real en el inicio, el catálogo, su página y el menú. L
 
 ## Contacto pendiente
 
-Por indicación del usuario se conserva **`contacto@neuratale.example`**, una dirección de ejemplo reservada, en `src/site-config.json`. El formulario prepara el mensaje en el navegador y permite copiarlo o descargarlo. No envía consultas ni habilita correo hacia esa dirección de ejemplo.
+El correo institucional es **`neuratale-contacto@neuratale.com.ar`**, configurado en `src/site-config.json`. El formulario prepara el mensaje en el navegador y lo abre en la aplicación de correo del visitante mediante `mailto:`; también permite copiarlo o descargarlo. No hay envío a ningún servidor.
 
 Cuando se confirme el correo real, reemplazalo en esa configuración y reconstruí el sitio. El botón de correo preparado abrirá la aplicación de correo de la persona visitante; no es un envío automático ni requiere backend. La copia y descarga siguen disponibles como alternativa.
 
