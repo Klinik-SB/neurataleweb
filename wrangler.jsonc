@@ -1,0 +1,7 @@
+// Configuración de Cloudflare Pages para despliegue directo con wrangler.
+// Un solo proyecto: la rama main es producción, cualquier otra rama (develop) es preview.
+{
+  "name": "neurataleweb",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2026-10-23"
+}

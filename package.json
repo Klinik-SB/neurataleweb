@@ -8,12 +8,16 @@
     "assets": "node scripts/images.mjs",
     "build": "node scripts/build.mjs",
     "start": "node server.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "verify": "npm run build && npm run check",
+    "deploy:develop": "npm run verify && wrangler pages deploy dist --branch develop --commit-dirty=true",
+    "deploy:main": "npm run verify && wrangler pages deploy dist --branch main --commit-dirty=true"
   },
   "engines": {
     "node": ">=20.9.0"
   },
   "devDependencies": {
-    "sharp": "0.35.5"
+    "sharp": "0.35.5",
+    "wrangler": "^4.152.0"
   }
 }
